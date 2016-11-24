@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+/* 
+ * money isn't a real protobuf type, but protocol-buffers
+ * knows how to encode/decode it since we pass it the money-encoder
+ */
+
+message wallet {
+  optional money dollars = 0;
+  optional money pesos = 1;
+}
+
+message traveller {
+  required wallet wallet;
+}
