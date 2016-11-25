@@ -1,6 +1,6 @@
 {
   "name": "money-encoder",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Money encoder/decoder for [protocol buffers](https://developers.google.com/protocol-buffers/)",
   "main": "money-encoder.js",
   "scripts": {
